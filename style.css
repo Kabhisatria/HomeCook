@@ -1,0 +1,78 @@
+
+/* Body */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    background-color: #FAB12F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header ul{
+	list-style-type:none;
+	text-align:center;
+    margin: 0;
+    padding:0;
+}
+
+.header li{
+	margin-right:20px;
+	display:inline;
+}
+
+/* Footer */
+.footer {
+    background-color: #FAB12F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Main Content Area */
+.main-content {
+    display: flex;
+    margin-top: 60px; /* space for fixed header */
+    margin-bottom: 40px; /* space for fixed footer */
+    padding: 20px;
+}
+
+.leftbar, .rightbar {
+    background-color: #f4f4f4;
+    width: 20%;
+    height: auto; /* Atur tinggi sesuai konten */
+    padding: 20px;
+    overflow: hidden; /* Tambahkan jika gambar terlalu besar */
+}
+
+
+/* Main Content */
+.content {
+    background-color: #ffffff;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+.leftbar img, .rightbar img {
+    width: 100%;
+    height: 100%; /* Isi penuh tinggi sidebar */
+    object-fit: cover; /* Gambar akan memenuhi ruang, bisa terpotong */
+}
+

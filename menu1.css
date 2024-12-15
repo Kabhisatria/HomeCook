@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #333;
+}
+
+/* menu1.css */
+.menu {
+    background-color: silver;
+    padding: 20px;
+    border-radius: 8px;
+    position: sticky; /* Menjadikan menu sticky */
+    top: 0; /* Menentukan posisi sticky di bagian atas */
+    z-index: 1000; /* Menjaga agar menu tetap di atas elemen lain */
+
+}
+
+.menu h2 {
+    color: #333;
+    text-align: center;
+}
+
+.menu hr {
+    border: none;
+    height: 2px;
+    background-color: #ff5722;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 1.1em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.home {
+    color: black;
+    text-align: center;
+}
+
+.home img {
+    max-width: 1200px;
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    padding: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.resep {
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+
+select, button {
+  padding: 8px;
+  font-size: 16px;
+  margin: 16px 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff6f61;
+  color: white;
+}
+
+/* Kontainer Resep */
+.resep {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px;
+}
+
+/* Item Resep */
+.recipe-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  padding: 8px;
+}
+
+.recipe-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.recipe-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+

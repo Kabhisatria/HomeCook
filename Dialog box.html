@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suggestion Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <h1>Saran untuk resep :</h1>
+
+  <form id="formsaran">
+    <label>
+      Nama Anda: <input type="text" id="name" placeholder="Masukan nama anda" required>
+    </label><br><br>
+    <label>
+      Tipe Makanan: 
+      <select id="foodType" required>
+        <option value="">--Select--</option>
+        <option value="Appetizer">Appetizer</option>
+        <option value="Main Course">Main Course</option>
+        <option value="Dessert">Dessert</option>
+        <option value="Snack">Snack</option>
+        <option value="Drink">Drink</option>
+      </select>
+    </label><br><br>
+    <label>
+      Saran: <textarea id="suggestion" placeholder="Tulis nama menu..." rows="4" required></textarea>
+    </label><br><br>
+    <button type="submit">Submit Suggestion</button>
+    <button type="button" id="backButton">Kembali</button> <!-- Ubah tipe menjadi button -->
+  </form>
+
+  <script src="form.js"></script>
+</body>
+</html>
