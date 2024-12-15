@@ -2,49 +2,49 @@ const recipes = [
   {
     name: "Telur Balado",
     image: "../image/telur balado.jpg",
-    link: "telur balado.html",
+    link: "telurbalado.html",
     mainIngredient: "telur"
   },
   {
     name: "Nasi Goreng",
     image: "../image/nasi goreng rempah.jpg",
-    link: "nasi goreng rempah.html",
+    link: "nasigorengrempah.html",
     mainIngredient: "nasi"
   },
   {
     name: "Mie Nyemek",
     image: "../image/mie nyemek.jpg",
-    link: "mie nyemek.html",
+    link: "mienyemek.html",
     mainIngredient: "mie"
   },
   {
     name: "Ayam Smackdown",
     image: "../image/ayam geprek.jpg",
-    link: "ayam geprek.html",
+    link: "ayamgeprek.html",
     mainIngredient: "ayam"
   },
   {
     name: "Telur Sarden",
     image: "../image/telur sarden.jpg",
-    link: "telur sarden.html",
+    link: "telursarden.html",
     mainIngredient: "telur"
   },
   {
     name: "Nasi Liwet",
     image: "../image/nasi liwet.jpg",
-    link: "nasi liwet.html",
+    link: "nasiliwet.html",
     mainIngredient: "nasi"
   },
   {
     name: "Mie gacorr",
     image: "../image/mie sosis mercon.jpg",
-    link: "mie sosis mercon.html",
+    link: "miesosismercon.html",
     mainIngredient: "mie"
   },
   {
     name: "Ayam merah",
     image: "../image/ayam saus.jpg",
-    link: "ayam saus.html",
+    link: "ayamsaus.html",
     mainIngredient: "ayam"
   }
 ];
