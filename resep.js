@@ -7,7 +7,7 @@ const recipes = [
   },
   {
     name: "Nasi Goreng",
-    image: "image/nasi goreng rempah.jpg",
+    image: "image/Nasi goreng rempah.jpg",
     link: "nasigorengrempah.html",
     mainIngredient: "nasi"
   },
@@ -31,13 +31,13 @@ const recipes = [
   },
   {
     name: "Nasi Liwet",
-    image: "image/nasi liwet.jpg",
+    image: "image/Nasi liwet.jpg",
     link: "nasiliwet.html",
     mainIngredient: "nasi"
   },
   {
     name: "Mie gacorr",
-    image: "image/mie sosis mercon.jpg",
+    image: "image/Mie sosis mercon.jpg",
     link: "miesosismercon.html",
     mainIngredient: "mie"
   },
